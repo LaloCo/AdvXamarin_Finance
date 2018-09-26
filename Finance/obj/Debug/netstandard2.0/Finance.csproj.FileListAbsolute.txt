@@ -1,0 +1,13 @@
+/Users/eduardorosas/Projects/Finance/Finance/bin/Debug/netstandard2.0/Finance.deps.json
+/Users/eduardorosas/Projects/Finance/Finance/bin/Debug/netstandard2.0/Finance.dll
+/Users/eduardorosas/Projects/Finance/Finance/bin/Debug/netstandard2.0/Finance.pdb
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.csprojAssemblyReference.cache
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.csproj.CoreCompileInputs.cache
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.AssemblyInfoInputs.cache
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.AssemblyInfo.cs
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.dll
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.pdb
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/View/MainPage.xaml.g.cs
+/Users/eduardorosas/Projects/Finance/Finance/obj/Debug/netstandard2.0/View/PostPage.xaml.g.cs
