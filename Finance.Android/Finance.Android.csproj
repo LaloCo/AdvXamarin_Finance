@@ -41,6 +41,11 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
 <AndroidSupportedAbis>armeabi-v7a;armeabi;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
+<AndroidKeyStore>True</AndroidKeyStore>
+<AndroidSigningKeyStore>/Users/eduardorosas/Library/Developer/Xamarin/Keystore/LPAFinance/LPAFinance.keystore</AndroidSigningKeyStore>
+<AndroidSigningStorePass>JpvRDN3W$VbVTU@3</AndroidSigningStorePass>
+<AndroidSigningKeyAlias>LPAFinance</AndroidSigningKeyAlias>
+<AndroidSigningKeyPass>JpvRDN3W$VbVTU@3</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
