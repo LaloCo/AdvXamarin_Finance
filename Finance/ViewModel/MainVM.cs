@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Net;
 using System.Text;
 using System.Xml.Serialization;
 using Finance.Model;
+using Microsoft.AppCenter.Crashes;
 
 namespace Finance.ViewModel
 {
@@ -25,15 +27,26 @@ namespace Finance.ViewModel
 
         public void ReadRss()
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Posts));
-
-            using (WebClient client = new WebClient())
+            try
             {
-                string xml = Encoding.Default.GetString(client.DownloadData("https://www.finzen.mx/blog-feed.xml"));
-                using (Stream reader = new MemoryStream(Encoding.UTF8.GetBytes(xml)))
+                XmlSerializer serializer = new XmlSerializer(typeof(Posts));
+
+                using (WebClient client = new WebClient())
                 {
-                    Blog = (Posts)serializer.Deserialize(reader);
+                    string xml = Encoding.Default.GetString(client.DownloadData("https://www.finzen.mx/blog-feed.xml"));
+                    using (Stream reader = new MemoryStream(Encoding.UTF8.GetBytes(xml)))
+                    {
+                        Blog = (Posts)serializer.Deserialize(reader);
+                    }
                 }
+            }
+            catch(Exception ex)
+            {
+                var infoDictionary = new Dictionary<string, string>
+                {
+                    {"RSS", "Reading RSS"}
+                };
+                Crashes.TrackError(ex, infoDictionary);
             }
         }
 
