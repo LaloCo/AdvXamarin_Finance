@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{8337A36F-24EB-4EA0-909B-C7644191855D}|Default" GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{154CC417-21AE-4A00-918F-FD8CD83D3F7B}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="Finance Status">
     <Files>
-      <File FileName="Finance/App.xaml.cs" Line="25" Column="94" />
-      <File FileName="Finance/View/PostPage.xaml.cs" Line="26" Column="48" />
+      <File FileName="Finance/App.xaml.cs" Line="25" Column="112" />
+      <File FileName="Finance/View/PostPage.xaml.cs" Line="45" Column="47" />
       <File FileName="Finance Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
