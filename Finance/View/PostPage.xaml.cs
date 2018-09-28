@@ -22,7 +22,6 @@ namespace Finance.View
 
             try
             {
-                throw (new Exception("Exception message"));
                 webView.Source = item.ItemLink;
                 var properties = new Dictionary<string, string>
                 {
