@@ -18,11 +18,17 @@ namespace Finance
             MainPage = new NavigationPage(new MainPage());
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
             string androidAppSecret = "8626cb1e-a5e1-43db-a223-14e5deb03fd6";
             string iOSAppSecret = "69127242-7f3e-4c21-9a5a-f191c6a53161";
             AppCenter.Start($"android={androidAppSecret};ios={iOSAppSecret}", typeof(Crashes), typeof(Analytics));
+
+            bool didAppCrashed = await Crashes.HasCrashedInLastSessionAsync();
+            if(didAppCrashed)
+            {
+                var crashReport = await Crashes.GetLastSessionCrashReportAsync();
+            }
         }
 
         protected override void OnSleep()

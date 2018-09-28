@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{154CC417-21AE-4A00-918F-FD8CD83D3F7B}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Finance Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Finance/View/PostPage.xaml.cs">
     <Files>
-      <File FileName="Finance/App.xaml.cs" Line="25" Column="112" />
-      <File FileName="Finance/View/PostPage.xaml.cs" Line="45" Column="47" />
-      <File FileName="Finance Status" />
+      <File FileName="Finance/App.xaml.cs" Line="30" Column="41" />
+      <File FileName="Finance/View/PostPage.xaml.cs" Line="25" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Finance.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.804459D3-51C1-45A7-80A8-0E1ECA803C14" automaticSigning="False" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Finance.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardorosas/Projects/Finance/Finance/App.xaml.cs" relfile="Finance/App.xaml.cs" line="31" column="1" />
+      <Breakpoint file="/Users/eduardorosas/Projects/Finance/Finance/App.xaml.cs" relfile="Finance/App.xaml.cs" line="28" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
