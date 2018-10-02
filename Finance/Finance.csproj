@@ -19,5 +19,6 @@
     <Folder Include="ViewModel\" />
     <Folder Include="Model\" />
     <Folder Include="View\Behaviors\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>
