@@ -5,6 +5,18 @@
              xmlns:behaviors="clr-namespace:Finance.View.Behaviors"
              x:Class="Finance.View.MainPage">
     
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Center"
+                     Spacing="10">
+            <Image Source="icon.png"/>
+            <Label VerticalOptions="Center"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Text="Finance"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <vm:MainVM x:Key="vm"/>
