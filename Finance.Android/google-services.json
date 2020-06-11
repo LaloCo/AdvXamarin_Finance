@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "981322225411",
+    "firebase_url": "https://xamarinfinance.firebaseio.com",
+    "project_id": "xamarinfinance",
+    "storage_bucket": "xamarinfinance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981322225411:android:14d390d327923f52c4fb36",
+        "android_client_info": {
+          "package_name": "com.lalorosas.Finance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981322225411-d6jlmg31tp934ehotvcifc7m68lsgnc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnGejNdbWercFvQ-qLpYBkMA4THYSL1AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981322225411-d6jlmg31tp934ehotvcifc7m68lsgnc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
