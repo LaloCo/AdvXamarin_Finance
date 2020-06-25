@@ -31,7 +31,7 @@ namespace Finance.View
             {
                 Title = item.Title;
                 postImage.Source = item.Enclosure.Url;
-                creatorLabel.Text = item.Creator;
+                creatorLabel.Text = item.Source.Text;
                 dateLabel.Text = item.PublishedDate.ToString("MMMM dd");
                 descriptionLabel.Text = item.Description;
 
