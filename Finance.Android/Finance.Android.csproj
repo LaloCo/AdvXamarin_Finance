@@ -83,6 +83,7 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dependencies\Share.cs" />
+    <Compile Include="Overrides\FirebaseService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -119,6 +120,7 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
     <Folder Include="Dependencies\" />
+    <Folder Include="Overrides\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Finance\Finance.csproj">
