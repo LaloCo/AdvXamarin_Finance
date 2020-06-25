@@ -60,6 +60,11 @@ namespace Finance.Droid.Overrides
 
             // convert the incoming message to a local notification
             SendLocalNotification(messageBody);
+
+            // could send to Xamarin.Forms app
+            // perhaps creating an AddMessage method back in the MainPage
+            // and calling it like this:
+            // (App.Current.MainPage as MainPage)?.AddMessage(messageBody);
         }
 
         void SendLocalNotification(string body)
